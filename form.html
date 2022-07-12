@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form demo</title>
+</head>
+<body>
+    <h1>
+        Please fill up the form for joining my company.
+    </h1>
+    <form action="">
+        <fieldset>
+            <h2>
+                Fill the correct details only!!
+            </h2>
+            <tr>
+                <td><label for="fname">First name:</label></td>
+                <td><input type="text" id="fname" name="fname"></td><br><br>
+            </tr>
+            <tr>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+            </tr>
+            <tr>
+                <label for="Email">Enter your Email:</label>
+                <input type="email" name="Email" id="email"><br><br>
+            </tr>
+            <tr>
+                <label for="pwd">Password:</label>
+                <input type="password"><br><br>
+            </tr>
+            <tr>
+                <label for="PhoneNumber">Enter your phone number:</label>
+                <input list="Country Code" name="Country Code">
+                <datalist id="Country Code">
+                    <option value="+91">
+                    <option value="+371">
+                    <option value="+81">
+                    <option value="+98">
+                </datalist>
+                <input type="tel" id="PhoneNumber" name="PhoneNumber" maxlength="10"><br><br>
+            </tr>
+            <tr>
+                <label for="LinkedIn">LinkedIn: </label>
+                <input type="url" id="LinkedIn" name="LinkedIn"><br><br>
+            </tr>
+            <tr>
+                <label for="Resume">Upload your resume:</label>
+                <input list="browsers" name="browsers">
+                <datalist id="browsers">
+                    <option value="PDF">
+                    <option value="WORD">
+                    <option value="PPT">
+                    <option value="DOCS">
+                </datalist>
+                <input type="file" id="Resume" name="resume"><br><br>
+            </tr>
+            <input type="Submit" value="Submit">
+            <input type="reset"><br><br>
+            </fieldset>
+    </form>
+</body>
+</html>
