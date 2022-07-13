@@ -9,7 +9,22 @@ h1{
 #para1{
     border: 2px solid black;
     font-size: 1cm;
+    font-family: Courier New;
     padding: 30px;
     background-color: palevioletred;
     text-align: center;
+}
+a:link,
+a:visited {
+    background-color: goldenrod;
+    color: white;
+    padding: 0.75cm;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.myDiv{
+    border: red;
+    text-align: center;
+    size: 5cm;
 }
