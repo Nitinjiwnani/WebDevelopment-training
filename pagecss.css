@@ -1,0 +1,31 @@
+body{
+    background-color: cadetblue;
+}
+h1{
+    text-align: center;
+    font-family: Verdana;
+}
+h2{
+    text-align: center;
+    font-family: Courier;
+}
+para1{
+    text-align: left;
+}
+.div1{
+    border: 5px solid black;
+    text-align: center;
+}
+.div2{
+    border: 5px solid black;
+    text-align: center;
+}
+.div3{
+    border: 5px solid black;
+    text-align: center;
+}
+button{
+    background-color: coral;
+    font-size: 20px;
+    text-align: center;
+}
