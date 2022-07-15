@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "pwa-chrome",
+            "type": "chrome",
             "request": "launch",
-            "name": "Open form.html",
-            "file": "f:\\Study\\web dev\\Training\\form.html"
+            "name": "Launch",
+            "file": "${fileBasename}"
         }
     ]
 }
