@@ -1,0 +1,7 @@
+.card-body{
+    border: 3px solid black;
+    padding: auto;
+}
+.card-text{
+    padding: 10px;
+}
