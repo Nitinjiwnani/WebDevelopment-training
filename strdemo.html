@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        document.write("String Demo");
+        console.log("String Demo")
+        st = 'String Demo'
+        document.write(st + " "+typeof st)
+        st = '<br/> String Demo\'s';
+        document.write(st+" "+typeof st)
+        st = "James@gmail.com";
+        // document.write("<br/>"+ st.length)
+        document.write("<br>"+ st.toUpperCase())
+        document.write("<br>"+ st.toLowerCase())
+        document.write("<br>"+ st)
+        st = "India is great";
+        document.write("<br>"+ st.includes("india")+"<br/>")
+        domain = [
+            "http://www.gmail.com",
+            "https://www.iik.ac.in",
+            "https://www.facebook.com",
+            "http://www.instagram.com"
+
+        ]
+        for(var i = 0;i<4;i++){
+            if(domain[i].endsWith("com"))
+            document.write(domain[i]+ "<br/>")
+        }
+        st = "Hello World"
+        document.write(st.search("l")+ "<br/>")
+        document.write(st.match(/l/g)+ "<br/>")
+        document.write(st.lastIndexOf("d")+ "<br/>")
+        // st = "       james@123"
+        // alert(st)
+        // alert(st.trim())
+        st = "james@123"
+        chr = prompt("enter a string").charAt(0)
+        document.write("<br/>"+chr)
+        st = "absc"
+        document.write(String.fromCharCode(65))
+        document.write(st.charCodeAt(1))
+        st1 = "Hello"
+        st2 = "World "
+        st3 = st1.concat(st2," Of js")
+        document.write("<br/>",st3)
+        st = "Welcome to the world of js"
+        document.write("<br/>",st.slice(0,5)) //or - for last
+        
+
+    </script>
+</body>
+</html>
